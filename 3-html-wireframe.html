@@ -9,37 +9,45 @@
         <meta name="author" content="Dave Stanton">
         <link rel="stylesheet" type="text/css" href="css/layout.css">
     </head>
-
-    <body>
-
+    <div id="wrapper">
+        </div>
+    
         <header>
-            <h1>HTML wireframe layout</h1>
+            <img src="img/logo.png" />
+               <h1>Kayla Ellsworth</h1>
+             <!-- I am going to have a logo of my initials and I would like that to be side-by side with my h1 I tried to play around with css under my index file in my repository if you want to check that out. -->
+                <h2>"The future belongs to those who believe in the beauty of their dreams" - Eleanor Roosevelt</h2>
+             <!-- This will be a little smaller, italic and not bold. -->
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="resume.html">Resume</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+             <!-- I will use CSS to make elements in the header float right, besides the logo. -->
         </header>
-
-        <nav>
-            <a href="1-html-quick-fix.html">HTML quick fix</a>
-            <a href="2-html-links-and-images.html">HTML links and images</a>
-            <a href="#footer">Copyright</a>
-        </nav>
-
-        <article>
-
-            <section>
-                <h2>Section heading</h2>
-                <p>Put whatever you want here.</p>
-            </section>
-
-            <aside>
-                <h2>Aside heading</h2>
-                <p>Be careful about having an aside element just for dumping other things. This area, however, might be a great spot for sharing tools or related links to this article.
+        
+    <article>
+           <aside> 
+               <h1>About Me.</h1>
+               <p> This is where I will talk about who I am, University of Florida student pursuing a bachelor's degree in Public Relations, why I am here - purpose of the website, my goals and ambitions etc. There will be lots of text here.</p>
             </aside>
-
-        </article>
-
-        <footer>
-            <p id="copyright">&copy; 2013. Content in your projects should be all original. Any content from additional sources should explicitly state the source and give credit. The GIFs used in these exercises were found on <a href="http://giphy.com/">Giphy</a>. If these exercises were intended for public viewing, I should track down the actually copyright owner for all of the images I used.</p>
-        </footer>        
-
+             <!-- I used an aside so that I can use css to make the text float left and image float right. -->
+            <figure>
+                <img src="img/kayla.jpg" width=40%>
+            </figure>
+    </article>
+         <!-- I would also like to use CSS to create a box border for the body content. -->
+    <footer>
+            <p>&copy; 2014 Kayla Ellsworth</p>
+    <div id="social-icons">
+     <a href="https://publicrelationsgirl101.wordpress.com"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/wordpress_circle_color-512.png" width="48" height="48" alt="Wordpress" /></a>
+        <a href="https://twitter.com/KaylaMarie921"><img src="http://www.liceubarcelona.cat/fileadmin/Logos/Twitter.png" width="48" height="48" alt="Twitter" /></a>
+        <a href="http://www.linkedin.com/in/publicrelationskaylaellsworth"><img src="https://cdn1.iconfinder.com/data/icons/yooicons_set01_socialbookmarks/512/social_linkedin_box_blue.png" width="48" height="48" alt="LinkedIn" /></a>
+        <a href="http://www.facebook.com/kayla.ellsworth.73"><img src="https://cdn1.iconfinder.com/data/icons/yooicons_set01_socialbookmarks/256/social_facebook_box_blue.png" width="48" height="48" alt="Facebook" /></a>
+         <a href="http://instagram.com/kaylabear921"><img src="http://cdn.ndtv.com/tech/gadget/image/Instagram_Icon_635.jpg" width="50" height="48" alt="Instagram" /></a>
+        </footer>
     </body>
 
 </html>
